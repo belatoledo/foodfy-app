@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu-bar {
+  margin: 63px auto 30px;
+  width: 940px;
+
+  position: relative;
+}
+
+.menu-bar img {
+  width: 90.6px;
+  height: 26.9px;
+  margin-right: 122.4px;
+}
+
+.menu-bar a {
+  color: #111111;
+  font-size: 16px;
+  font-weight: 400;
+
+  text-decoration: none;
+
+  margin-right: 30px;
+
+  position: absolute;
+  top: 5.5px;
+}
+
+.menu-bar a + a {
+  position: absolute;
+  left: 286px;
+}
+
+.rectangle {
+  margin: 36px auto 50px;
+  background: #FBDFDB;
+  width: 940px;
+  height: 366px;
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
