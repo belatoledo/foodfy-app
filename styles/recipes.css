@@ -89,3 +89,40 @@ footer p {
   color: #999999;
   text-align: center;
 }
+
+/*----- MODAL ------*/
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  /*opacity: 0;
+  visibility: hdden; */
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+  /*função JS ativando o modal on click*/
+}
+
+.modal {
+  width: 660px;
+  height: 413px;
+  margin: 28vh auto;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+
+.modal-content {
+  padding: 30px 30px 183px 30px;
+  margin: 0 auto;
+}
+
+.modal-content .recipe img {
+  width: 600px;
+  height: 200px;
+  border-radius: 15px;
+}
