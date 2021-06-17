@@ -117,12 +117,37 @@ footer p {
 }
 
 .modal-content {
+
   padding: 30px 30px 183px 30px;
   margin: 0 auto;
 }
 
-.modal-content .recipe img {
+.container-img {
   width: 600px;
   height: 200px;
+
   border-radius: 15px;
+}
+
+.container-img img {
+  width: 600px;
+  height: 200px;
+
+  object-fit: cover;
+}
+
+.modal-content .recipe p {
+  width: 600px;
+  padding: 20px;
+  font-size: 24px;
+  color: #111111;
+  text-align: center;
+  line-height: 28px;
+}
+
+.modal-content .recipe span {
+
+  font-size: 18px;
+  color: #777777;
+  text-align: center;
 }
